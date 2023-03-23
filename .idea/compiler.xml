@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="prubadegithub" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="prubadegithub" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
